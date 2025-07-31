@@ -9,7 +9,7 @@ Before running the project, set up a Python virtual environment and install depe
 
 #pip install selenium pandas numpy beautifulsoup4
 
-Project Structure
+## Project Structure
 
 o  main.py: Uses Selenium to extract raw HTML of top 250 movie entries and saves each in a separate file inside the 
    data/ folder.
@@ -17,7 +17,7 @@ o  main.py: Uses Selenium to extract raw HTML of top 250 movie entries and saves
 o  collect.py: Parses saved HTML files to extract movie metadata (Title, Year, Duration, Rating, Score, Link) and compiles 
    the information into a CSV file imdb_top250_movies.csv.
 
-Features
+## Features
 
 o  Extracts:
 
@@ -32,7 +32,7 @@ o  Saves HTML snapshots for offline inspection
 
 o  Robust error handling for parser failures
 
-Output
+## Output
 
 The final result is stored in:
  
