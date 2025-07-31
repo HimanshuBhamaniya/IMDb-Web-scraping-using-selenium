@@ -21,12 +21,12 @@ o  collect.py: Parses saved HTML files to extract movie metadata (Title, Year, D
 
 o  Extracts:
 
-   o  🎬 Title
-   o  🗓 Year of release
-   o  ⏱ Duration
-   o  📛 Content rating
-   o  ⭐ IMDb score
-   o  🔗 Direct link to the movie page
+     🎬 Title
+     🗓 Year of release
+     ⏱ Duration
+     📛 Content rating
+     ⭐ IMDb score
+     🔗 Direct link to the movie page
   
 o  Saves HTML snapshots for offline inspection
 
